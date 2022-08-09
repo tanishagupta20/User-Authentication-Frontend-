@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#parent{
+    height : 50%;
+    width : 50%;
+    background-color: rgb(203, 197, 197);
+    display: block;
+    margin : 0 auto;
+    margin-top: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    padding-top : 2rem;
+}
+
+body{
+    background-color: black;
+}
+
+#msg{
+    color : red;
+    text-align: center;
+}
+
+#usrExists{
+    color : red;
+    text-align: center;
+}

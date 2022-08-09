@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel = "stylesheet" href = "index.css">
+</head>
+<body>
+    <div id = "parent">
+        <h1>Sign Up</h1>
+        <br><br>
+        <div id = "form">
+            <label for = "usn">Username : </label>
+            <input type = "text" id = "usn" /><br><br>
+
+            <label for = "name">Name : &nbsp; &nbsp; &nbsp;</label>
+            <input type = "text" id = "name" /><br><br>
+
+            <label for = "pwd">Password : </label>
+            <input type = "password" id = "pwd" /><br><br>
+            
+            <input type = "button" id = "sub" value = "Submit" onclick = "signUp()" style = "height : 30px; width : 250px;"/>
+        </div>
+            <br>
+
+            <script src = "./signUp.js"></script>
+            <p>Have an account already? <a href = "./signIn.html">Sign In</a></p><br><br>
+
+            <span id = "usrExists"></span><br><br>
+        
+    </div>
+</body>
+</html>
